@@ -1,4 +1,4 @@
-# sdop-website
+# SDOP-website
 Website that features downloadable app SDOP.
 
 ## planned features
