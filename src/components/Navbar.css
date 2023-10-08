@@ -1,0 +1,25 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  font-size: 3em;
+  color: #000000;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin: 0 30px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #a335f1;
+}
