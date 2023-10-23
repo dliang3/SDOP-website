@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  white-space: pre-line;
+  display: block;
+  margin-right: 30%;
+}
+
+.body {
+  padding:1%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  margin: 15% 0 15% 10%;
+}
+
+.imageContainer img {
+  height: auto;
+  width: 70%;
+  border: 1px solid #16BBC6;
+  box-shadow: -15px -15px 27px rgb(36 32 32 / 30%);
+  z-index: 1;
+}
+
+.imageContainer img:nth-child(2) {
+  position: absolute;
+  top: 98px;
+  left: 212px;
+  z-index: 2;
+}
