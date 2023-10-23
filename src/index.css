@@ -12,3 +12,15 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+/* blue stickyNote text background */
+.stickyNote {
+  background-color: #CBE2F0;
+  padding: 4%;
+  display: flex;
+  border: none;
+  height: 20px;
+  clip-path: polygon(100% 0, 100% 80%, 95% 100%, 0 100%, 0 0);
+  flex-direction: row;
+  align-items: center;
+}
