@@ -2,6 +2,7 @@ import "./Home.css"
 import "../../components/buttons.css"
 import appHomepage from "../../images/demoScreenshot1.png"
 import appObjectPage from "../../images/demoScreenshot2.png"
+import boxGraphic from "../../images/Graphic-Box.png"
 
 const Home = () => {
 
@@ -11,9 +12,18 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1 className="title">Silly <br></br> Data <br></br> Object <br></br> Packager</h1>
-      <div className="stickyNote"> slayifying your development process... </div>
+      <div className="topRow">
+        <div className="stickyNote tagLine"> slayifying your development process... </div>
+        <div className="boxGraphic">
+          <img src={boxGraphic} alt="box graphic"></img>
+        </div>
+      </div>
+
       <div className="body">
+        <div className="middleText">
+          <p>SDOP stores everything about an object into one file. <br></br> </p>
+          <p>With a simple interface that allows you to add multiple image files, set attributes and package them all in one file, SDOP is a great option for those wanting an asset organization tool.</p>
+        </div>
         <div className="imageContainer">
           <img src={appHomepage} alt="application homepage"></img>
           <img src={appObjectPage} alt="application object page"></img>

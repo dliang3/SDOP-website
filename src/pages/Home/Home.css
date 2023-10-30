@@ -1,8 +1,8 @@
 .home {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .title {
@@ -11,17 +11,44 @@
   margin-right: 30%;
 }
 
+.topRow {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 10% 0 10%;
+  height: 594px;
+}
+
 .body {
-  padding:1%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
 }
 
+.tagLine {
+  font-size: 25px;
+  height: 50px;
+  width: 1408px;
+}
+
+.boxGraphic img {
+  width: 70%;
+  height: auto;
+  margin-left: 124px;
+}
+
+.middleText {
+  margin-top: 10%;
+  font-size: 20px;
+}
+
+.middleText p {
+  margin: 4% 15% 0 20%;
+}
+
 .imageContainer {
   position: relative;
-  margin: 15% 0 15% 10%;
+  margin: 5% 0 15% 0%;
 }
 
 .imageContainer img {
