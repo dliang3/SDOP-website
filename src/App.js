@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home';
 import Guide from './pages/Guide/Guide';
 import Download from './pages/Download/Download';
@@ -18,6 +19,7 @@ function App() {
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -2,7 +2,7 @@ import "./Download.css"
 
 const Download = () => {
   return (
-    <div>
+    <div className="download">
       <h1>Download</h1>
       <div className="SystemDownloadBlock">
         <h2>Windows</h2>
