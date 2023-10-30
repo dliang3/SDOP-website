@@ -23,4 +23,5 @@
   clip-path: polygon(100% 0, 100% 80%, 95% 100%, 0 100%, 0 0);
   flex-direction: row;
   align-items: center;
+  font-size: 20px;
 }

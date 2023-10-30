@@ -2,24 +2,33 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  justify-content: center;
+  gap: 10%;
 }
 
 .navbar h1 {
-  font-size: 3em;
+  font-size: 30px;
   color: #000000;
 }
 
 .navbar .links {
-  margin-left: auto;
+  padding: 4px;
 }
 
 .navbar a {
   margin: 0 30px;
   text-decoration: none;
-  padding: 6px;
+  font-size: 20px;
 }
 
 .navbar a:hover {
   color: #a335f1;
+}
+
+.logo {
+  margin: auto;
+}
+.logo img {
+  width: 117px;
+  height: auto;
 }
