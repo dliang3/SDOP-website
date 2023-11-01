@@ -1,0 +1,20 @@
+.mainButton {
+  font-size: 20px;
+  border: none;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  background-color: #CBE2F0;
+  z-index: 1;
+  transition: 0.25s;
+
+  box-shadow: 
+    0.3em 0.3em 0 0 #81B0CD,
+    inset 0.3em 0.3em 0 0 #81B0CD;
+  
+}
+
+
+.mainButton:hover {
+  box-shadow: 0 0 0 0 #81B0CD, inset 6em 3.5em 0 0 #81B0CD;
+}

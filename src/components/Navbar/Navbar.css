@@ -1,0 +1,34 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.navbar h1 {
+  font-size: 30px;
+  color: #000000;
+}
+
+.navbar .links {
+  padding: 4px;
+}
+
+.navbar a {
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #a335f1;
+}
+
+.logo {
+  margin: auto;
+}
+.logo img {
+  width: 117px;
+  height: auto;
+}

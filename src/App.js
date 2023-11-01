@@ -1,12 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home';
 import Guide from './pages/Guide/Guide';
 import Download from './pages/Download/Download';
 import ErrorPage from './pages/ErrorPage'
-
-
-
 
 function App() {
   return (
@@ -21,6 +19,7 @@ function App() {
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

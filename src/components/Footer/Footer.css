@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #DEDBBD;
+  color: #DEDBBD;
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  border-top: 1px solid #ccc; 
+  padding: 20px;
+}
+
+.footerText {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 10px 0 10px;
+}
+
+.logoContainer {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100px;
+  margin-right: 2%;
+}
+
+.logoContainer img {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: auto;
+}
+
+.text-with-dot {
+  position: relative;
+}
+
+.text-with-dot::before {
+  content: '\00B7'; /* Unicode character for a dot */
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 24px; 
+  color: #000; 
+  line-height: 1; 
+  font-weight: bold; 
+}

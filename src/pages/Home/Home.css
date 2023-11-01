@@ -1,0 +1,67 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.title {
+  white-space: pre-line;
+  display: block;
+  margin-right: 30%;
+}
+
+.topRow {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 10% 0 10%;
+  height: 30%;
+}
+
+.body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tagLine {
+  font-size: 25px;
+  height: 50px;
+  width: 1408px;
+}
+
+.boxGraphic img {
+  width: 70%;
+  height: auto;
+  margin-left: 124px;
+}
+
+.middleText {
+  margin-top: 10%;
+  font-size: 20px;
+}
+
+.middleText p {
+  margin: 4% 15% 0 20%;
+}
+
+.imageContainer {
+  position: relative;
+  margin: 5% 0 10% 0%;
+}
+
+.imageContainer img {
+  height: auto;
+  width: 70%;
+  border: 1px solid #16BBC6;
+  box-shadow: -15px -15px 27px rgb(36 32 32 / 30%);
+  z-index: 1;
+}
+
+.imageContainer img:nth-child(2) {
+  position: absolute;
+  top: 98px;
+  left: 212px;
+  z-index: 2;
+}
