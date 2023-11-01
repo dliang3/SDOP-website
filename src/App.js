@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home';
 import Guide from './pages/Guide/Guide';
 import Download from './pages/Download/Download';
+import FAQ from './pages/FAQ/FAQ';
 import ErrorPage from './pages/ErrorPage'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/Guide" element={<Guide />} />
             <Route path="/Download" element={<Download />} />
+            <Route path="FAQ" element={<FAQ />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </div>

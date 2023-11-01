@@ -2,7 +2,7 @@ import "./FAQ.css"
 
 const FAQ = () => {
   return (
-    <div>
+    <div className="FAQ">
       <h1>Frequently asked questions</h1>
     </div>
   );
