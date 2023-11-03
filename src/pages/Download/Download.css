@@ -1,21 +1,24 @@
 .download {
-  height: 1000px;
 }
 
 .SystemDownloadBlock {
   padding-right: 70%;
 }
 
-.SystemDownloadBlock h2 {
-  margin-top: 10px;
-}
-
 .downloadGuide {
   margin-top: 6%;
+  border-top: 0.5px solid #000;
 }
 
 .downloadTextBlock {
   margin-bottom: 3%;
+}
+
+.line {
+  margin: 2% 0 2% 0;
+}
+.line h2{
+  margin-top: 20px;
 }
 
 .image_layout {
@@ -25,4 +28,13 @@
 .downloadGuide img {
   height: auto;
   width: 400px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #414141;
+  margin: auto 30px auto 30px;
 }

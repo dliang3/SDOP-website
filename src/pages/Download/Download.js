@@ -1,7 +1,5 @@
 import "./Download.css"
 
-import setup_wizard from "../../images/download/setup_wizard.png"
-
 const Download = () => {
   return (
     <div className="download">
@@ -29,14 +27,28 @@ const Download = () => {
 
       <div className="downloadGuide">
         <div className="downloadTextBlock">
-          <h2>Download Guide</h2>
-          <div> 1. Choose the corresponding download for your operating system. <br />
-            2. Once the installer is downloaded, open it and follow the instructions for setting up the app.
+          <h2 className="line">Download Guide</h2>
+          <div className="line"> 1. Choose the corresponding download for your operating system. <br />
+            2. Once the installer is downloaded, open it and follow the instructions for setting up the app. <br/>
+            Note: Remember where you installed the app so that you can create a shortcut for it! <br/>
+
+          </div>
+
+          <div className="image_layout">
+            <img src={require("../../images/download/setup_wizard.png")} alt="setup wizard" />
+            <div className="arrow" />
+            <img src={require("../../images/download/setup2.png")} alt="setup 2" />
+            <div className="arrow" />
+            <img src={require("../../images/download/setup3.png")} alt="setup 3" />
+            <div className="arrow" />
+            <img src={require("../../images/download/setup4.png")} alt="setup 4" />
+          </div>
+
+          <div className="line">
+            3. To create a shortcut, go to the directory where SDOP was downloaded, right click on main.exe, and create a shortcut.
           </div>
         </div>
-        <div className="image_layout">
-          <img src={setup_wizard} alt="setup wizard" />
-        </div>
+
 
       </div>
     </div>
