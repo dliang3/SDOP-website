@@ -1,5 +1,7 @@
 import "./Download.css"
 
+import setup_wizard from "../../images/download/setup_wizard.png"
+
 const Download = () => {
   return (
     <div className="download">
@@ -12,7 +14,7 @@ const Download = () => {
           <button className="mainButton">
             Download Version 1.0
           </button>
-        {/* </div> */}
+          {/* </div> */}
         </a>
 
         <h2>Mac</h2>
@@ -23,6 +25,19 @@ const Download = () => {
         <button className="mainButton">
           Download Version 1.0
         </button>
+      </div>
+
+      <div className="downloadGuide">
+        <div className="downloadTextBlock">
+          <h2>Download Guide</h2>
+          <div> 1. Choose the corresponding download for your operating system. <br />
+            2. Once the installer is downloaded, open it and follow the instructions for setting up the app.
+          </div>
+        </div>
+        <div className="image_layout">
+          <img src={setup_wizard} alt="setup wizard" />
+        </div>
+
       </div>
     </div>
   );
