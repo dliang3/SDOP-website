@@ -7,11 +7,12 @@ const Download = () => {
       <div className="SystemDownloadBlock">
         <h2>Windows</h2>
         <h3>64-bit</h3>
-        {/* <a href="../../appCode/SDOP_app.zip" download="SDOP_app.zip"> */}
-        <a href={require("../../appCode/test_mareep.png")} download="test_mareep">
+        {/* <div id={downloadButton}> */}
+        <a href={require("../../test/SDOP.msi")} alt="SDOP app">
           <button className="mainButton">
             Download Version 1.0
           </button>
+        {/* </div> */}
         </a>
 
         <h2>Mac</h2>
