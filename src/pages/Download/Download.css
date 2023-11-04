@@ -1,4 +1,8 @@
-.download {
+img:hover {
+  filter: brightness(0.9); /* Lightens the image by 20% (adjust the value as needed) */
+}
+img {
+  transition: filter 0.3s ease;
 }
 
 .SystemDownloadBlock {
@@ -21,13 +25,15 @@
   margin-top: 20px;
 }
 
-.image_layout {
+.imageLayout {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .downloadGuide img {
   height: auto;
-  width: 400px;
+  width: 300px;
 }
 
 .arrow {
@@ -36,5 +42,5 @@
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
   border-left: 20px solid #414141;
-  margin: auto 30px auto 30px;
+  margin: auto 15px auto 15px;
 }
