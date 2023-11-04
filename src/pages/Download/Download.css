@@ -1,7 +1,7 @@
-img:hover {
+.downloadGuide img:hover {
   filter: brightness(0.9); /* Lightens the image by 20% (adjust the value as needed) */
 }
-img {
+.downloadGuide img {
   transition: filter 0.3s ease;
 }
 

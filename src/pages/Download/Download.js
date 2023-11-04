@@ -40,9 +40,10 @@ const Download = () => {
       {/* Download Guide */}
       <div className="downloadGuide">
         <div className="downloadTextBlock">
-          <h2 className="line">Download Guide</h2>
+          <h2 className="line">Download Guide </h2>
+          <h2>Windows</h2>
           <div className="line"> 1. Choose the corresponding download for your operating system. <br /> </div>
-          <div className="line"> 2. Once the installer is downloaded, open it and follow the instructions for setting up the app. <br /> </div>
+          <div className="line"> 2. Once the installer is downloaded, open it and follow the text dialogues and instructions for setting up the app. <br /> </div>
           <div className="line"> Note: Remember where you installed the app so that you can create a shortcut for it! <br /> </div>
 
           <div className="imageLayout">
