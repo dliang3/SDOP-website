@@ -16,10 +16,10 @@ const Navbar = () => {
 
 
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/Guide">Guide</Link>
-        <Link to="/Download">Download</Link>
-        <Link to="/FAQ">FAQ</Link>
+        <Link to="/" className="hoverBorder">Home</Link>
+        <Link to="/Guide" className="hoverBorder">Guide</Link>
+        <Link to="/Download" className="hoverBorder">Download</Link>
+        <Link to="/FAQ" className="hoverBorder">FAQ</Link>
       </div>
     </nav>
   );

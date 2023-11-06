@@ -1,3 +1,59 @@
 .FAQ {
   height: 1000px;
 }
+
+.accordion-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 5% auto;
+  font-size: 14px;
+  color: #b9b9b9;
+}
+
+.accordion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.accordion li {
+  margin-bottom: 8px;
+}
+
+.accordion h3 {
+  cursor: pointer;
+  background-color: #f7f9f9;
+  padding: 1.2rem 1rem 1rem 1.2rem;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  font-weight: 100;
+  letter-spacing: 0.035em;
+  position: relative;
+  font-size: 18px;
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
+}
+
+.accordion h3:hover,
+.accordion h3.closed {
+  color: #333; /* Change color to your desired text color */
+  background-color: #fff;
+}
+
+.accordion p {
+  background-color: #CBE2F0;
+  padding: 1rem 1.8rem;
+  color: #333; /* Change color to your desired text color */
+  box-shadow: none;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.5s;
+}
+
+.accordion .open p {
+  opacity: 1;
+  transform: translateY(0px);
+}
