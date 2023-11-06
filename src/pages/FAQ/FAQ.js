@@ -27,7 +27,7 @@ const FAQ = () => {
     <div className="FAQ">
 
       <h1>Frequenty Asked Questions</h1>
-      <div className="accordion-container">
+      <div className="accordionContainer">
         <div className="accordion">
           <ul>
             {accordionData.map((item, index) => (

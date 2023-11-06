@@ -2,11 +2,11 @@
   height: 1000px;
 }
 
-.accordion-container {
+.accordionContainer {
   max-width: 1000px;
   width: 100%;
   margin: 5% auto;
-  font-size: 14px;
+  font-size: 16x;
   color: #b9b9b9;
 }
 
@@ -36,14 +36,14 @@
 
 .accordion h3:hover,
 .accordion h3.closed {
-  color: #333; /* Change color to your desired text color */
+  color: #333;
   background-color: #fff;
 }
 
 .accordion p {
   background-color: #CBE2F0;
   padding: 1rem 1.8rem;
-  color: #333; /* Change color to your desired text color */
+  color: #333; 
   box-shadow: none;
   border-left: 1px solid #dfdfdf;
   border-right: 1px solid #dfdfdf;
