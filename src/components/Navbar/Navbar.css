@@ -28,38 +28,38 @@
   font-size: 20px;
 }
 
-/* .navbar a:hover {
-  color: #a335f1;
-} */
-
 .logo {
   margin: auto;
 }
+
 .logo img {
   width: 117px;
   height: auto;
 }
 
 .links {
+  /* styling for underline hover */
   .hoverBorder {
     position: relative;
     text-decoration: none;
-    color: #000; 
+    color: #000;
 
     &:after {
       content: '';
       position: absolute;
       width: 0;
-      height: 2px; 
+      height: 2px;
       bottom: 0;
-      left: 50%; /* Start the underline from the center */
+      left: 50%;
+      /* Start the underline from the center */
       background-color: #000;
-      transition: width 0.3s ease; 
-      transform: translateX(-50%); 
+      transition: width 0.3s ease;
+      transform: translateX(-50%);
     }
 
     &:hover:after {
-      width: 100%; /* Expand the underline to cover the full width */
+      width: 100%;
+      /* Expand the underline to cover the full width */
     }
   }
 }

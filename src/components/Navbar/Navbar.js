@@ -14,7 +14,6 @@ const Navbar = () => {
         </div>
       </Link>
 
-
       <div className="links">
         <Link to="/" className="hoverBorder">Home</Link>
         <Link to="/Guide" className="hoverBorder">Guide</Link>

@@ -21,12 +21,12 @@ const Home = () => {
 
       <div className="body">
         <div className="middleText">
-          <p>SDOP stores everything about an object into one file. <br/> </p>
+          <p>SDOP stores everything about an object into one file. <br /> </p>
           <p>With a simple interface that allows you to add multiple image files, set attributes and package them all in one file, SDOP is a great option for those wanting an asset organization tool.</p>
         </div>
         <div className="imageContainer">
-          <img src={appHomepage} alt="application homepage"/>
-          <img src={appObjectPage} alt="application object page"/>
+          <img src={appHomepage} alt="application homepage" />
+          <img src={appObjectPage} alt="application object page" />
         </div>
         <button className="mainButton" onClick={handleOnClick}>Download Here</button>
       </div>

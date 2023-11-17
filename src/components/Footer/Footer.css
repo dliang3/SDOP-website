@@ -8,7 +8,7 @@
   height: 100px;
   width: auto;
   margin-top: 10px;
-  border-top: 1px solid #ccc; 
+  border-top: 1px solid #ccc;
   padding: 20px;
 }
 
@@ -34,13 +34,14 @@
 }
 
 .text-with-dot::before {
-  content: '\00B7'; /* Unicode character for a dot */
+  /* Unicode character for a dot */
+  content: '\00B7';
   position: absolute;
-  top: 50%; 
-  left: 50%; 
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 24px; 
-  color: #000; 
-  line-height: 1; 
-  font-weight: bold; 
+  font-size: 24px;
+  color: #000;
+  line-height: 1;
+  font-weight: bold;
 }
