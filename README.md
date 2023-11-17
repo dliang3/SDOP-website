@@ -1,4 +1,4 @@
-<a href="https://imgur.com/9iybXu9"><img src="https://i.imgur.com/9iybXu9.png" title="source: imgur.com" style="width: 30%;" /></a>
+<p align="center"><img width=30% src="https://i.imgur.com/9iybXu9.png" alt="SDOP Logo"  /></p>
 
 # SDOP-website
 Website that features downloadable app, Silly Data Object Packager.
