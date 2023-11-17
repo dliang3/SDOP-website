@@ -1,9 +1,10 @@
-# SDOP-website
-Website that features downloadable app SDOP.
+<a href="https://imgur.com/9iybXu9"><img src="https://i.imgur.com/9iybXu9.png" title="source: imgur.com" style="width: 30%;" /></a>
 
-## planned features
-- Support download on windows, mac, and linux
-- Starting guide
+# SDOP-website
+Website that features downloadable app, Silly Data Object Packager.
+
+## Features
+- Support download on Windows, Mac, and Linux
+- Starting guide - instructions on using the app
 - Code library
 - FAQ
-- Free assets library
