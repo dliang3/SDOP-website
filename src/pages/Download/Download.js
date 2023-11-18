@@ -27,7 +27,7 @@ const Download = () => {
             Download Version 1.0
           </button>
         </a>
-        <h2>macOS</h2>
+        <h2>Mac</h2>
         <button className="mainButton">
           Download Version 1.0
         </button>
