@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/SDOP-website" element={<Home />} />
             <Route path="/Guide" element={<Guide />} />
             <Route path="/Download" element={<Download />} />
             <Route path="FAQ" element={<FAQ />} />
