@@ -50,7 +50,7 @@ const Guide = () => {
         <h3>Opening a package:</h3>
         <body>1. Open the application.<br></br>
           2. Select "File" - "Open" to enter your file system and open a preexisting package. <br></br>
-        
+          <br></br>
           <div className="imageLayout">
 
           <img src={require("../../images/guide/open.PNG")} alt="open" onClick={() => handleImageClick(require("../../images/guide/open.PNG"))} />
