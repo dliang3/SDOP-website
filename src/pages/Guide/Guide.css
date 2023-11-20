@@ -8,3 +8,23 @@
 .guideBody {
   margin: 10% 10% 0 0;
 }
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #414141;
+  margin: auto 15px auto 15px;
+}
+
+.imageLayout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 390px;
+  height: 250px;
+}
