@@ -8,6 +8,7 @@
   background-color: #CBE2F0;
   z-index: 1;
   transition: 0.25s;
+  margin-bottom: 30px;
 
   box-shadow:
     0.3em 0.3em 0 0 #81B0CD,
