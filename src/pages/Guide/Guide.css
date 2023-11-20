@@ -29,6 +29,10 @@
   width: 300px;
 }
 
+.imageLayout img:hover {
+  filter: brightness(0.9);
+}
+
 img {
   width: 390px;
   height: 250px;

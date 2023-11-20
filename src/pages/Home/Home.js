@@ -34,7 +34,7 @@ const Home = () => {
           <p> Click here to access a tutorial for using the app: <br /> </p>
         </div>
 
-        <button className="mainButton" onClick={() => window.location.href = '/Download'} style={{ marginBottom: '50px' }}>
+        <button className="mainButton" onClick={() => window.location.href = '/Guide'} style={{ marginBottom: '50px' }}>
           App Guide
         </button>
 
