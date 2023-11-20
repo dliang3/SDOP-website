@@ -30,7 +30,11 @@
 
 .topText {
   font-size: 20px;
-  margin: 4% 0;
+  margin: 8% 0;
+}
+
+.topText p {
+  margin-top: 4%;
 }
 
 

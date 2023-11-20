@@ -24,6 +24,11 @@
   flex-wrap: wrap;
 }
 
+.imageLayout img {
+  height: auto;
+  width: 300px;
+}
+
 img {
   width: 390px;
   height: 250px;

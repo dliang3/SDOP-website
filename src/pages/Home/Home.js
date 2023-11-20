@@ -23,8 +23,8 @@ const Home = () => {
 
       <div className="body">
         <div className="middleText">
-          <p>SDOP stores everything about an object into one file. <br /> </p>
-          <p>With a simple interface that allows you to add multiple image files, set attributes and package them all in one file, SDOP is a great option for those wanting an asset organization tool.</p>
+          <p>SDOP features an appealing and user-friendly design that is quite easy to learn. Input your data, and watch as it seamlessly compiles into a neatly packaged file, keeping your information organized and easily accessible. 
+            <br/><br/> Whether you're just starting out or a seasoned pro, SDOP simplifies the process for everyone. <br /> </p>
         </div>
         <div className="imageContainer">
           <img src={appHomepage} alt="application homepage" />
