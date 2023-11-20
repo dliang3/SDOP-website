@@ -58,6 +58,11 @@ const Guide = () => {
           <img src={require("../../images/guide/select_open.PNG")} alt="select open" onClick={() => handleImageClick(require("../../images/guide/select_open.PNG"))} />
           <div className="arrow" />
           <img src={require("../../images/guide/open_file.PNG")} alt="open file" onClick={() => handleImageClick(require("../../images/guide/open_file.PNG"))} />
+          </div>
+
+          <br></br>
+
+          <div className="imageLayout">
           <div className="arrow" />
           <img src={require("../../images/guide/opened_file.PNG")} alt="opened file" onClick={() => handleImageClick(require("../../images/guide/opened_file.PNG"))} />
           <div className="arrow" />
