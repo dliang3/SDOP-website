@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/SDOP-website/static/css/main.9f5a0836.css",
-    "main.js": "/SDOP-website/static/js/main.f14d2cd3.js",
-    "static/media/SDOP.msi": "/SDOP-website/static/media/SDOP.718b645b84515b28be73.msi",
+    "main.css": "/SDOP-website/static/css/main.f7b2e4e2.css",
+    "main.js": "/SDOP-website/static/js/main.87cabccf.js",
+    "static/media/SDOP.msi": "/SDOP-website/static/media/SDOP.eb8469ddbb371723e4a4.msi",
     "static/media/WorldWeavers-logo.png": "/SDOP-website/static/media/WorldWeavers-logo.b80a7e3c8ac62bd28923.png",
     "static/media/Graphic-Box.png": "/SDOP-website/static/media/Graphic-Box.0571d05c975b99b6b1b1.png",
     "static/media/SDOP-logo.png": "/SDOP-website/static/media/SDOP-logo.6ef1f9b38ff248b65841.png",
+    "static/media/edit.PNG": "/SDOP-website/static/media/edit.f7f1dc02a87f0a18a851.PNG",
     "static/media/demoScreenshot2.png": "/SDOP-website/static/media/demoScreenshot2.dcea42b35f5a10826513.png",
+    "static/media/opened_file.PNG": "/SDOP-website/static/media/opened_file.c54016b184dfa57c2813.PNG",
     "static/media/demoScreenshot1.png": "/SDOP-website/static/media/demoScreenshot1.9337c7329a5f7f10ede1.png",
     "static/media/setup_wizard.png": "/SDOP-website/static/media/setup_wizard.5ed5a87cd90ba74f3157.png",
+    "static/media/open_file.PNG": "/SDOP-website/static/media/open_file.69764202fbdf55887ba6.PNG",
+    "static/media/default.PNG": "/SDOP-website/static/media/default.a7f0f329e1a2088e8132.PNG",
     "static/media/setup3.png": "/SDOP-website/static/media/setup3.26ffd50b987a13099614.png",
     "static/media/setup4.png": "/SDOP-website/static/media/setup4.c00ea11b593de9ca8370.png",
     "static/media/setup2.png": "/SDOP-website/static/media/setup2.4f606a44fe7efee9b252.png",
     "static/media/create_shortcut.png": "/SDOP-website/static/media/create_shortcut.635a17f625155138d600.png",
+    "static/media/select_new.PNG": "/SDOP-website/static/media/select_new.d3419586d0aa9264cc4d.PNG",
+    "static/media/select_open.PNG": "/SDOP-website/static/media/select_open.9ec1e93f7351d6823ed2.PNG",
+    "static/media/open.PNG": "/SDOP-website/static/media/open.c978cdab31e52c54c08f.PNG",
     "index.html": "/SDOP-website/index.html",
-    "main.9f5a0836.css.map": "/SDOP-website/static/css/main.9f5a0836.css.map",
-    "main.f14d2cd3.js.map": "/SDOP-website/static/js/main.f14d2cd3.js.map"
+    "main.f7b2e4e2.css.map": "/SDOP-website/static/css/main.f7b2e4e2.css.map",
+    "main.87cabccf.js.map": "/SDOP-website/static/js/main.87cabccf.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5a0836.css",
-    "static/js/main.f14d2cd3.js"
+    "static/css/main.f7b2e4e2.css",
+    "static/js/main.87cabccf.js"
   ]
 }
