@@ -22,7 +22,7 @@ const Download = () => {
         {/* Download links */}
         <h2>Windows</h2>
         <h3>64-bit</h3>
-        <a href={require("../../test/SDOP.msi")} alt="SDOP app">
+        <a href={require("../../windowsInstaller/SDOP.msi")} alt="SDOP app">
           <button className="mainButton">
             Download Version 1.0
           </button>
@@ -37,7 +37,7 @@ const Download = () => {
         </button>
       </div>
 
-      {/* Download Guide */}
+      {/* Windows Download Guide */}
       <div className="downloadGuide">
         <div className="downloadTextBlock">
           <h2 className="line">Download Guide </h2>
