@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SDOP-website/static/css/main.f7b2e4e2.css",
-    "main.js": "/SDOP-website/static/js/main.87cabccf.js",
-    "static/media/SDOP.msi": "/SDOP-website/static/media/SDOP.eb8469ddbb371723e4a4.msi",
+    "main.js": "/SDOP-website/static/js/main.e2bdbe4d.js",
+    "static/media/SDOP.msi": "/SDOP-website/static/media/SDOP.88395cb7240acd996432.msi",
     "static/media/WorldWeavers-logo.png": "/SDOP-website/static/media/WorldWeavers-logo.b80a7e3c8ac62bd28923.png",
     "static/media/Graphic-Box.png": "/SDOP-website/static/media/Graphic-Box.0571d05c975b99b6b1b1.png",
     "static/media/SDOP-logo.png": "/SDOP-website/static/media/SDOP-logo.6ef1f9b38ff248b65841.png",
@@ -22,10 +22,10 @@
     "static/media/open.PNG": "/SDOP-website/static/media/open.c978cdab31e52c54c08f.PNG",
     "index.html": "/SDOP-website/index.html",
     "main.f7b2e4e2.css.map": "/SDOP-website/static/css/main.f7b2e4e2.css.map",
-    "main.87cabccf.js.map": "/SDOP-website/static/js/main.87cabccf.js.map"
+    "main.e2bdbe4d.js.map": "/SDOP-website/static/js/main.e2bdbe4d.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b2e4e2.css",
-    "static/js/main.87cabccf.js"
+    "static/js/main.e2bdbe4d.js"
   ]
 }
