@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SDOP-website/static/css/main.f7b2e4e2.css",
-    "main.js": "/SDOP-website/static/js/main.3a9e87ea.js",
+    "main.js": "/SDOP-website/static/js/main.b6bfaf25.js",
     "static/media/SDOP.msi": "/SDOP-website/static/media/SDOP.e1d1750ae63d65dcf4f5.msi",
     "static/media/WorldWeavers-logo.png": "/SDOP-website/static/media/WorldWeavers-logo.b80a7e3c8ac62bd28923.png",
     "static/media/Graphic-Box.png": "/SDOP-website/static/media/Graphic-Box.0571d05c975b99b6b1b1.png",
@@ -22,10 +22,10 @@
     "static/media/open.PNG": "/SDOP-website/static/media/open.c978cdab31e52c54c08f.PNG",
     "index.html": "/SDOP-website/index.html",
     "main.f7b2e4e2.css.map": "/SDOP-website/static/css/main.f7b2e4e2.css.map",
-    "main.3a9e87ea.js.map": "/SDOP-website/static/js/main.3a9e87ea.js.map"
+    "main.b6bfaf25.js.map": "/SDOP-website/static/js/main.b6bfaf25.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b2e4e2.css",
-    "static/js/main.3a9e87ea.js"
+    "static/js/main.b6bfaf25.js"
   ]
 }
